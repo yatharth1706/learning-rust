@@ -25,3 +25,11 @@ Each signed variant can store numbers from -(2<sup>n - 1</sup>) to 2<sup>n -
 `i8` can store numbers from -(2<sup>7</sup>) to 2<sup>7</sup> - 1, which equals
 -128 to 127. Unsigned variants can store numbers from 0 to 2<sup>n</sup> - 1,
 so a `u8` can store numbers from 0 to 2<sup>8</sup> - 1, which equals 0 to 255.
+
+#### Floating-Point Types
+
+Rust also has two primitive types for _floating-point numbers_, which are
+numbers with decimal points. Rust’s floating-point types are `f32` and `f64`,
+which are 32 bits and 64 bits in size, respectively. The default type is `f64`
+because on modern CPUs, it’s roughly the same speed as `f32` but is capable of
+more precision. All floating-point types are signed.

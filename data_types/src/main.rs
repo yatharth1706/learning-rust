@@ -49,4 +49,12 @@ fn main() {
     println!("Char b: {b}");
     println!("Char rocket icon: {rocket_icon}");
 
+    // tuples
+
+    let tup = (1,4,20);
+
+    let (x,y,z) = tup;
+
+    println!("Val of x, y, z from tuple are : {x}, {y}, {z} respectively");
+
 }

@@ -38,3 +38,28 @@ more precision. All floating-point types are signed.
 
 As in most other programming languages, a Boolean type in Rust has two possible
 values: `true` and `false`. Booleans are one byte in size.
+
+#### The Character Type
+
+Rust’s `char` type is the language’s most primitive alphabetic type.
+
+### Compound Types
+
+_Compound types_ can group multiple values into one type. Rust has two
+primitive compound types: tuples and arrays.
+
+#### The Tuple Type
+
+A _tuple_ is a general way of grouping together a number of values with a
+variety of types into one compound type. Tuples have a fixed length: once
+declared, they cannot grow or shrink in size.
+
+We create a tuple by writing a comma-separated list of values inside
+parentheses. Each position in the tuple has a type, and the types of the
+different values in the tuple don’t have to be the same.
+
+```rust
+    fn main() {
+        let tup: (i32, f64, u8) = (500, 6.4, 1);
+    }
+```

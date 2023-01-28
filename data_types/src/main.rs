@@ -57,4 +57,12 @@ fn main() {
 
     println!("Val of x, y, z from tuple are : {x}, {y}, {z} respectively");
 
+    let second_value = tup.1;
+
+    println!("Val of tuple accessed using dot notation: {second_value}");
+
+    let arr = [1,2,4,5];
+
+    let brr = [4; 3]; // 3 elements in array with same value 4
+
 }

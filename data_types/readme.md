@@ -63,3 +63,9 @@ different values in the tuple don’t have to be the same.
         let tup: (i32, f64, u8) = (500, 6.4, 1);
     }
 ```
+
+#### The Array Type
+
+Another way to have a collection of multiple values is with an _array_. Unlike
+a tuple, every element of an array must have the same type. Unlike arrays in
+some other languages, arrays in Rust have a fixed length.

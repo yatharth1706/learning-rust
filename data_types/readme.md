@@ -33,3 +33,8 @@ numbers with decimal points. Rust’s floating-point types are `f32` and `f64`,
 which are 32 bits and 64 bits in size, respectively. The default type is `f64`
 because on modern CPUs, it’s roughly the same speed as `f32` but is capable of
 more precision. All floating-point types are signed.
+
+#### The Boolean Type
+
+As in most other programming languages, a Boolean type in Rust has two possible
+values: `true` and `false`. Booleans are one byte in size.

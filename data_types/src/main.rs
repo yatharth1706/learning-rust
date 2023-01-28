@@ -25,4 +25,28 @@ fn main() {
     println!("Truncated: {truncated}");
     println!("Remainder: {remainder}");
 
+
+    // boolean examples:
+    let isMigrationHappened = false;
+    let areUComing : bool = true;
+
+    println!("IsMigration Happend: {isMigrationHappened}");
+    println!("Are u coming?: {areUComing}");
+    
+    if isMigrationHappened {
+        println!("IsMigration Happend: {isMigrationHappened}");
+    }
+
+    if areUComing {
+        println!("Are u coming?: {areUComing}");
+    }
+
+    let a = 'a';
+    let b : char = 'B';
+    let rocket_icon = '🚀';
+
+    println!("Char a: {a}");
+    println!("Char b: {b}");
+    println!("Char rocket icon: {rocket_icon}");
+
 }
